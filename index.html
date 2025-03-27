@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оценка объектов КИИ предприятия «Газ-добыча»</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .category-1 {
+            background-color: #ffcccc;
+            font-weight: bold;
+        }
+        .category-2 {
+            background-color: #ffffcc;
+            font-weight: bold;
+        }
+        .category-3 {
+            background-color: #e6f2ff;
+            font-weight: bold;
+        }
+        .criteria-cell {
+            width: 60%;
+        }
+        .category-cell {
+            width: 20%;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .final-category {
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Оценка объектов КИИ предприятия «Газ-добыча»</h1>
+    
+    <table>
+        <tr>
+            <th style="width: 20%;">Объект КИИ</th>
+            <th class="criteria-cell">Критерии значимости</th>
+            <th class="category-cell">Категория значимости</th>
+        </tr>
+        
+        <!-- АСУТП добычи газа -->
+        <tr>
+            <td rowspan="4">АСУТП добычи газа</td>
+            <td>Социальная значимость: прекращение или нарушение функционирования может привести к прекращению газоснабжения не менее 50 000 человек.</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        <tr>
+            <td>Экономическая значимость: ущерб более 1 млрд рублей в случае полной остановки добычи.</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        <tr>
+            <td>Экологическая значимость: вероятность возникновения чрезвычайной ситуации регионального характера.</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        
+        <!-- АСУТП транспортировки газа -->
+        <tr>
+            <td rowspan="4">АСУТП транспортировки газа</td>
+            <td>Социальная значимость: прекращение или нарушение функционирования может привести к прекращению газоснабжения нескольких регионов.</td>
+            <td class="category-1">I категория</td>
+        </tr>
+        <tr>
+            <td>Экономическая значимость: ущерб более 2 млрд рублей в случае нарушения транспортировки.</td>
+            <td class="category-1">I категория</td>
+        </tr>
+        <tr>
+            <td>Экологическая значимость: вероятность возникновения чрезвычайной ситуации федерального характера при аварии на газопроводе.</td>
+            <td class="category-1">I категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-1">I категория</td>
+        </tr>
+        
+        <!-- Информационная система учета запасов и добычи газа -->
+        <tr>
+            <td rowspan="3">Информационная система учета запасов и добычи газа</td>
+            <td>Экономическая значимость: ущерб более 500 млн рублей при искажении данных.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td>Значимость для обеспечения безопасности государства: может привести к нарушению стратегического планирования в энергетической отрасли.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        
+        <!-- Корпоративная информационно-телекоммуникационная сеть -->
+        <tr>
+            <td rowspan="3">Корпоративная информационно-телекоммуникационная сеть</td>
+            <td>Социальная значимость: косвенное влияние на функционирование технологических процессов.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td>Экономическая значимость: ущерб до 500 млн рублей.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        
+        <!-- Система экологического мониторинга -->
+        <tr>
+            <td rowspan="3">Система экологического мониторинга</td>
+            <td>Экологическая значимость: отказ может привести к несвоевременному выявлению экологических инцидентов.</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        <tr>
+            <td>Социальная значимость: потенциальная угроза здоровью населения при отсутствии оперативного реагирования на экологические инциденты.</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-2">II категория</td>
+        </tr>
+        
+        <!-- Финансово-бухгалтерская информационная система -->
+        <tr>
+            <td rowspan="2">Финансово-бухгалтерская информационная система</td>
+            <td>Экономическая значимость: ущерб до 500 млн рублей.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        
+        <!-- Система информационной безопасности -->
+        <tr>
+            <td rowspan="3">Система информационной безопасности</td>
+            <td>Экономическая значимость: ущерб до 500 млн рублей при компрометации.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td>Значимость для безопасности государства: может привести к раскрытию информации ограниченного доступа.</td>
+            <td class="category-3">III категория</td>
+        </tr>
+        <tr>
+            <td class="final-category">Итоговая категория значимости</td>
+            <td class="category-3">III категория</td>
+        </tr>
+    </table>
+    
+    <div style="margin-top: 20px;">
+        <strong>Пояснение по категориям значимости:</strong>
+        <ul>
+            <li><span style="color: #cc0000; font-weight: bold;">I категория</span> - объекты КИИ высокой значимости</li>
+            <li><span style="color: #cccc00; font-weight: bold;">II категория</span> - объекты КИИ средней значимости</li>
+            <li><span style="color: #0066cc; font-weight: bold;">III категория</span> - объекты КИИ низкой значимости</li>
+        </ul>
+    </div>
+</body>
+</html>
